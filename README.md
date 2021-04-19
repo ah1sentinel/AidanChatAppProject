@@ -10,15 +10,15 @@ The messages sent can only be received while the recipient user is marked as onl
 
 To send message as well as show previously sent and received chats, click on the JList component on the rightmost side of the CentralGui frame, the name that is selected will trigger the response displaying the previously saved chats on the leftmost side of the CentralGui frame. Adding text to the textfield located underneath the displayed chat messages and pressing send, sends the text typed to the selected user. This user will either receive the message if he/she is online, or the message will just be sent to the server and not sent back to the sender or receiver. Sending a message to an offline user will have the effect of making it seem as if no message was sent.
 
-#Project Development
+# Project Development
 This project was created using Apache Netbeans 12.3, Windows 10 and MongoDB Enterprise Edition.
 
-#Prerequisites
+# Prerequisites
 - Java JDK on the device that will be acting as the server as well as the client device that will be used
 - IP Address of the device that will be acting as the server
 - MongoDB (at least Community Edition or Enterprise Edition) installed on the server device and client devices
 
-#Running the client program (LoginFrame.java) for the first time on any client device:
+# Running the client program (LoginFrame.java) for the first time on any client device:
 1. Go to the LoginFrame.java file in the clientPackage subpackage
 2. Open the LoginFrame.java file in any compatible IDE
 3. Edit the ipAddress variable to contain the server device ip address
